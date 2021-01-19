@@ -47,10 +47,17 @@
     border-bottom: 1px solid rgb(224, 177, 177); 
 }
 
+
+
 .blog-preview h2
 {
     font-size: 20px;
     color:rgb(28, 84, 214);
     margin-bottom: 8px;
 
+}
+
+.blog-preview h2:hover
+{
+  color: rgb(240, 153, 39);
 }
