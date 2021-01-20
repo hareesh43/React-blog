@@ -61,3 +61,7 @@
 {
   color: rgb(240, 153, 39);
 }
+
+.blog-preview a{
+  text-decoration: none;
+}
