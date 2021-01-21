@@ -28,7 +28,12 @@
   padding: 6px;
 }
 .navbar a:hover {
-  color: darkgreen;
+  /* color: darkgreen; */
+  border: 0px;
+  border-radius:8px;
+  background-color: blue;
+  color: white;
+
 }
 
 .content {
@@ -67,4 +72,44 @@
   font-size: 20px;
   color: rgb(170, 38, 194);
   border-bottom: 2px solid black;
+}
+/* styles for create blog */
+
+.create
+{
+  max-width: 400px;
+  margin: 0px auto;
+  text-align: center;
+}
+
+.create label
+{
+  text-align: left;
+  display: block;
+}
+.create h2
+{
+  font-size: 20px;
+  color: darkmagenta;
+  margin-bottom: 30px;
+}
+.create input,.create textarea,.create select
+{
+  width: 100%;
+  padding:10px 20px;
+  margin:20px 0px;
+  border: 1px solid blue;
+  box-sizing: border-box;
+  display: block;
+}
+
+.create button 
+{
+  color:white;
+  background-color: blue;
+  padding: 8px;
+  border:0px;
+  border-radius: 8px;
+  cursor: pointer;
+
 }
