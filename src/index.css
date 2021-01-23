@@ -113,3 +113,14 @@
   cursor: pointer;
 
 }
+
+.blog-details button
+{
+  background-color:rgb(251, 75, 6);
+  border: 0px;
+  padding:8px;
+  cursor: pointer;
+  border-radius: 10px;
+  color: aliceblue;
+  
+}
